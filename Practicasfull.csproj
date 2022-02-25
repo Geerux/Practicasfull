@@ -46,10 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayMu.cs">
+    <Compile Include="Clases\ArrayMu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ArrayMu.Designer.cs">
+    <Compile Include="Clases\ArrayMu.Designer.cs">
       <DependentUpon>ArrayMu.cs</DependentUpon>
     </Compile>
     <Compile Include="Clases\Calculadora.cs">
@@ -83,7 +83,7 @@
     <Compile Include="Clases\Sum2.Designer.cs">
       <DependentUpon>Sum2.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ArrayMu.resx">
+    <EmbeddedResource Include="Clases\ArrayMu.resx">
       <DependentUpon>ArrayMu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Clases\Calculadora.resx">
